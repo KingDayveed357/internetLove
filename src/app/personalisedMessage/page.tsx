@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
-export default function personalisedMessage() {
+export default function PersonalisedMessage() {
   const [name, setName] = useState<string>('');
   const [customMessage, setCustomMessage] = useState<string>('');
   const [animationUrl, setAnimationUrl] = useState<string | null>(null);

@@ -28,13 +28,13 @@ export default function Home() {
 
       {/* Main Text */}
       <h1 className="text-5xl font-extrabold text-center drop-shadow-lg">
-        Welcome to <span className="text-yellow-300">David's</span> Valentine Hub! 💝
+        Welcome to <span className="text-yellow-300">David&apos;s</span> Valentine Hub! 💝
       </h1>
       <p className="mt-4 text-lg text-center max-w-2xl">
-        Love is in the air, and so is **great web development**! I'm{" "}
+        Love is in the air, and so is **great web development**! I&apos;m{" "}
         <span className="font-bold text-yellow-200">David Aniago</span>, a passionate full-stack
         web developer bringing creativity and tech together to build **beautiful** and **interactive**
-        web experiences. This app is your ultimate **Valentine's Day companion**—so enjoy the magic! ✨
+        web experiences. This app is your ultimate **Valentine&apos;s Day companion**—so enjoy the magic! ✨
       </p>
 
       {/* Navigation Links */}

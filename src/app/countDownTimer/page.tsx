@@ -13,7 +13,7 @@ export default function Countdown() {
     const now = new Date();
     let valentinesDay = new Date(now.getFullYear(), 1, 14).getTime();
 
-    // If Valentine's Day has passed this year, set it for next year
+    // If Valentine&apos;s Day has passed this year, set it for next year
     if (now.getTime() > valentinesDay) {
       valentinesDay = new Date(now.getFullYear() + 1, 1, 14).getTime();
     }
@@ -39,7 +39,7 @@ export default function Countdown() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-pink-400 to-red-500 text-white p-6">
       <h2 className="text-4xl font-extrabold mb-6 text-center">
-        ❤️ Countdown to Valentine's Day ❤️
+        ❤️ Countdown to Valentine&apos;s Day ❤️
       </h2>
 
       <div className="flex gap-4 p-4 bg-white/20 backdrop-blur-md rounded-lg shadow-lg">
